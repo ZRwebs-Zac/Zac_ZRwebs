@@ -19,8 +19,8 @@ This Repository is only accessible to whom has the link, anyone who has the link
 ##License
 
 ###Apache License 2.0
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+							Version 2.0, January 2004
+					  	  http://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
