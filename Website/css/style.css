@@ -25,6 +25,9 @@
 	from { opacity: 0; }
 	to   { opacity: 1; }
 }
+::-webkit-scrollbar { 
+    display: none; 
+}
 * {
 	padding: 0;
 	margin: 0;
@@ -81,4 +84,97 @@ body {
 	-ms-animation: fadein 24s; 
 	-o-animation: fadein 24s; 
 	animation: fadein 24s;
+}
+.row-title {
+	z-index: 1;
+	width: 100%;
+	max-width: 7000px;
+	font-size: 36px;
+	font-weight: 100;
+	color: #fff;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	padding-top: 5%;
+}
+.para {
+	font-family: "Source Sans Pro";
+	font-weight: 100;
+	color: #fff;
+	font-size: 20px; 
+	letter-spacing: 1%;
+	line-height: 150%;
+	text-align: center;
+}
+
+/*============================*/
+/*============Buttons=========*/
+/*============================*/
+
+.learnmore {
+	border: 2px solid #ddd;
+	padding: 1.5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: "Source Sans Pro";
+	font-weight: 100;
+	color: #ddd;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #000;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	-webkit-animation: fadein 14s; 
+	-moz-animation: fadein 14s;
+	-ms-animation: fadein 14s; 
+	-o-animation: fadein 14s; 
+	animation: fadein 14s;
+}
+.learnmore:hover {
+	color: #000;
+	background-color: #ddd;
+	transition: background-color 2s;
+}
+
+/*============================*/
+/*=============Divs===========*/
+/*============================*/
+
+.about {
+	width: 100%;
+	margin-top: 60%;
+	height: 100%;
+	position: relative;
+}
+.divider-1 {
+	width: 100%;
+	height: 100%;
+	margin-top: 10%;
+	position: relative;
+}
+.title-div {
+	width: 50%;
+	margin: auto;
+}
+
+/*============================*/
+/*============Images==========*/
+/*============================*/
+
+
+.background {
+	z-index: -1;
+	width: 100%;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px); 
+	-webkit-animation: fadein 4s; 
+	-moz-animation: fadein 4s;
+	-ms-animation: fadein 4s; 
+	-o-animation: fadein 4s; 
+	animation: fadein 4s;
 }
